@@ -1,0 +1,59 @@
+const MIN = 1;
+const MAX = 1000
+const DIFF = Math.log(MAX)/ Math.log(2))
+
+let guess = 0
+let tries
+
+const startGame = () => {
+  guess = MAX / 2
+  document.getElementById('guess').textContent = guess
+  document.getElementById('intro').style.display = 'none'
+  document.getElementById('game').style.display = 'block'
+}
+
+const guessCorrect = () => {
+  document.getElementById('guess').textContent = guess
+  document.getElementById('intro').style.display = 'none'
+  document.getElementById('game').style.display = 'block'
+}
+
+const guessLower = () => {
+  guess = guess/2
+  document.getElementById()
+  
+document.getElementById('min').textContent = MIN
+document.getElementById('MAX').textContent = MAX
+document.getElementById('DIF').textContent = DIF
+
+document.getElementById('ok').addEventListener('click', startGame)
+document.getElementById('yes').addEventListener('click', guessCorrect)
+document.getElementById('higher').addEventListener('click', guessHigher)
+document.getElementById('lower').addEventListener('click', guessLower)
+document.getElementById('reset').addEventListener('click', resetGame)
+}
+
+document ('DOMcontentLoaded')
+
+
+
+
+dif is difficulty
+buttom says ok
+
+
+then theres another div "game"
+Is your number
+
+We use javascript to manipulate the styles of the css. 
+The div "vitory" and game and so and so are styled. 
+
+"let" was added to javascript to fix the quirck about how var worked. in 2015 forward, use let over var to name a variable. ; semicolons at the end of a statement are optional. 'const' once you set it, you cant change it. Go to const by default, until you have to manipulate the variable. Get rid of bugs by using const by default. Min number you can guess and max number you can guess. Console.log prints DIF and it is a thing that interacts with the browser. Anything where you go to interact with the actual page, use document. console.log(DIF)  .log is guetting the log of a number. 
+
+The document.getElementById is the javascript interacting with the html code defining the Min, Max, and Diff
+
+Now we want to do something with the button. .addEventListener takes two arguements. The event that you want to respond to and a specific call. When we start the ok clicking, the startGAME function gets calls and the gae starts, 
+
+In javascript you can access styles that on object has. First, well set it to none. Then we set the game to block. 
+
+we need to create a 
